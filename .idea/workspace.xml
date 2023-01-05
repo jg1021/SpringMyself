@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e40027c7-42bf-4759-aba2-67b78e1febec" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/springmyself/springboot/service/PostsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/springmyself/springboot/web/PostsApiController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/springmyself/springboot/web/dto/PostsSaveRequestDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/springmyself/springboot/web/PostsApiControllerTest.java" afterDir="false" />
+    <list default="true" id="e40027c7-42bf-4759-aba2-67b78e1febec" name="Changes" comment="20230105 1st commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/springmyself/springboot/web/dto/PostsResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/springmyself/springboot/web/dto/PostsUpdateRequestDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/springmyself/springboot/domain/posts/Posts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springmyself/springboot/domain/posts/Posts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/springmyself/springboot/service/PostsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springmyself/springboot/service/PostsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/springmyself/springboot/web/PostsApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springmyself/springboot/web/PostsApiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/springmyself/springboot/web/PostsApiControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/springmyself/springboot/web/PostsApiControllerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,6 +165,14 @@
       <option name="presentableId" value="Default" />
       <updated>1653028745699</updated>
     </task>
+    <task id="LOCAL-00001" summary="20230105 1st commit">
+      <created>1672860338406</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1672860338406</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -176,5 +185,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="20230105 1st commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="20230105 1st commit" />
   </component>
 </project>
