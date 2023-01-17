@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e40027c7-42bf-4759-aba2-67b78e1febec" name="Changes" comment="20230115 commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/springmyself/springboot/config/WebConfig.java" afterDir="false" />
+    <list default="true" id="e40027c7-42bf-4759-aba2-67b78e1febec" name="Changes" comment="20230117 commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/springmyself/springboot/config/auth/LoginUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springmyself/springboot/config/auth/LoginUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/springmyself/springboot/config/auth/LoginUserArgumentResolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springmyself/springboot/config/auth/LoginUserArgumentResolver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/springmyself/springboot/web/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springmyself/springboot/web/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/springmyself/springboot/config/auth/dto/OAuthAttributes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springmyself/springboot/config/auth/dto/OAuthAttributes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application-oauth.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-oauth.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.mustache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +47,12 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="SpringT" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="verification" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="SpringT" type="f1a62948:ProjectNode" />
                 <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
               </path>
             </expand>
@@ -75,20 +77,23 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="29Pxszew4bVeCN7LkigaKOZeXuv" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "settings.editor.selected.configurable": "preferences.keymap"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.Application">
+}</component>
+  <component name="RunManager" selected="Gradle.SpringMyself [test]">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.springmyself.springboot.Application" />
       <module name="SpringT.main" />
@@ -101,6 +106,27 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="SpringMyself [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
     </configuration>
     <configuration name="IndexControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SpringT.test" />
@@ -128,22 +154,6 @@
       <option name="PACKAGE_NAME" value="com.springmyself.springboot.web" />
       <option name="MAIN_CLASS_NAME" value="com.springmyself.springboot.web.IndexControllerTest" />
       <option name="METHOD_NAME" value="메인페이지_로딩" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PostsApiControllerTest.Posts_등록된다" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SpringT.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.springmyself.springboot.web.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.springmyself.springboot.web" />
-      <option name="MAIN_CLASS_NAME" value="com.springmyself.springboot.web.PostsApiControllerTest" />
-      <option name="METHOD_NAME" value="Posts_등록된다" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -183,11 +193,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.SpringMyself [test]" />
         <item itemvalue="JUnit.IndexControllerTest.메인페이지_로딩" />
         <item itemvalue="JUnit.IndexControllerTest" />
         <item itemvalue="JUnit.PostsRepositoryTest.BaseTimeEntity_등록" />
         <item itemvalue="Application.Application" />
-        <item itemvalue="JUnit.PostsApiControllerTest.Posts_등록된다" />
       </list>
     </recent_temporary>
   </component>
@@ -270,7 +280,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673793801750</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="20230116 commit">
+      <created>1673875645230</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1673875645230</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -295,6 +312,8 @@
     <MESSAGE value="20230113 commit" />
     <MESSAGE value="20230114 commit" />
     <MESSAGE value="20230115 commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="20230115 commit" />
+    <MESSAGE value="20230116 commit" />
+    <MESSAGE value="20230117 commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="20230117 commit" />
   </component>
 </project>
