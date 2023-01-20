@@ -4,16 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e40027c7-42bf-4759-aba2-67b78e1febec" name="Changes" comment="20230117 commit">
-      <change afterPath="$PROJECT_DIR$/src/test/resources/application.properties" afterDir="false" />
+    <list default="true" id="e40027c7-42bf-4759-aba2-67b78e1febec" name="Changes" comment="20230118 commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application-oauth.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-oauth.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/springmyself/springboot/web/PostsApiControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/springmyself/springboot/web/PostsApiControllerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -78,7 +80,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="29Pxszew4bVeCN7LkigaKOZeXuv" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -93,7 +95,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.All in SpringT.test (1)">
+  <component name="RunManager" selected="JUnit.All in SpringT.test (3)">
     <configuration name="SpringMyself [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -123,6 +125,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="All in SpringT.test (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpringT.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in SpringT.test (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpringT.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="All in SpringT.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SpringT.test" />
       <option name="PACKAGE_NAME" value="" />
@@ -131,61 +149,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelloControllerTest.hello가_리턴된다" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SpringT.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.springmyself.springboot.web.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.springmyself.springboot.web" />
-      <option name="MAIN_CLASS_NAME" value="com.springmyself.springboot.web.HelloControllerTest" />
-      <option name="METHOD_NAME" value="hello가_리턴된다" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PostsApiControllerTest.Posts_수정된다" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SpringT.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.springmyself.springboot.web.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.springmyself.springboot.web" />
-      <option name="MAIN_CLASS_NAME" value="com.springmyself.springboot.web.PostsApiControllerTest" />
-      <option name="METHOD_NAME" value="Posts_수정된다" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PostsRepositoryTest.게시글저장_불러오기" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SpringT.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.springmyself.springboot.domain.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.springmyself.springboot.domain" />
-      <option name="MAIN_CLASS_NAME" value="com.springmyself.springboot.domain.PostsRepositoryTest" />
-      <option name="METHOD_NAME" value="게시글저장_불러오기" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in SpringT.test (3)" />
+        <item itemvalue="JUnit.All in SpringT.test (2)" />
         <item itemvalue="JUnit.All in SpringT.test (1)" />
         <item itemvalue="JUnit.All in SpringT.test" />
         <item itemvalue="Gradle.SpringMyself [test]" />
-        <item itemvalue="JUnit.HelloControllerTest.hello가_리턴된다" />
-        <item itemvalue="JUnit.PostsRepositoryTest.게시글저장_불러오기" />
       </list>
     </recent_temporary>
   </component>
@@ -282,7 +252,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673965338248</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="20230118 commit">
+      <created>1674047928169</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1674047928169</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -309,6 +286,7 @@
     <MESSAGE value="20230115 commit" />
     <MESSAGE value="20230116 commit" />
     <MESSAGE value="20230117 commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="20230117 commit" />
+    <MESSAGE value="20230118 commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="20230118 commit" />
   </component>
 </project>
